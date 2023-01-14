@@ -1,0 +1,335 @@
+/* Css för index.html */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.BodyColor{
+    background-image: linear-gradient(grey, white);
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.navindex{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navindex .logo{
+    width: 70px;
+}
+
+.navindex ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navindex ul li a{
+    text-decoration: none;
+    color: rgb(19, 12, 12);
+    font-size: 17px;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-size: 160px;
+    color: rgb(21, 15, 15);
+    font-weight: 600;
+}
+
+.content h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+/* Css för Om.html */
+#TableOm{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#Section{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position:absolute;
+    top: 55%;
+    left: 45%;
+}
+#TableArbete{
+    width: 400px;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+
+}
+
+#Th{
+    text-align: left;
+}
+
+#TableArbete, #Th, #Td{
+    border: 3px solid #000;
+}
+
+#Th, #Td{
+    padding: 10px;
+}
+
+/* Css för Hobbies */
+
+#olHobbies{ 
+    list-style-type: decimal;
+    padding: 3%;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    line-height: 1.5;
+}
+
+
+#HeaderHobbie{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#h2Hobbies{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+
+/* Css för Contact*/
+
+#footercontact{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 40px;
+}
+
+.divcontact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.divcontact, .h3contact{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.divcontact, .pcontact{
+    max-width: 500px;
+    margin: 15px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.ulcontact{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.ulcontact, .licontact{
+    margin: 0 10px;
+}
+
+.divfooter{
+    width: 100vw;
+    padding: 20px ;
+    text-align: center;
+}
+
+#spancontact{
+    color: blue;
+}
+
+/* Css for javaspel */
+
+.Game{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    top: 10%;
+    left: 35%;
+    position: absolute;
+}
+
+.div-answers{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+
+.divh1{
+    margin: 5px;
+    padding: 5px;
+}
+
+
+#rock, #paper, #scissors{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 7rem;
+    transition: 100ms;
+}
+
+#rock:hover, #paper:hover, #scissors:hover{
+transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.Game{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:inline-block;
+}
+
+.selectyour, .score{
+    text-align: center;
+}
+.selectyour, span {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.paper, .rock, .scissors{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: -20px;
+    padding: -20px;
+    background: center cover;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+*/
+/*
+
+.divgame{
+    top: 20%;
+    left: 45%;
+    position: absolute;
+}
+
+.Game{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 3rem;
+    transition: 100ms;
+}
+
+.buttons:hover{
+    transform: scale(1.2);
+}
+
+.results{
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.result-score{
+    margin-left: .1rem;
+    font-size: .5rem;
+    color: #333;
+}
+
+.resultofgame{
+    opacity: .5;
+}
+
+.resultofgame.you{
+    opacity: 1;
+    font-size: 1.5rem;
+}
+*/
